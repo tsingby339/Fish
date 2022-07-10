@@ -1,0 +1,557 @@
+
+2022-02-14 23:34:08:D:\冰点文库\Fish.exe-3.2.12-0314
+23:34:08:start with admin privilege : 0
+23:34:08:LoadUrlFile can't open url file. cUrlFile:D:\冰点文库\kini\tkbatch.ini
+23:34:11:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:34:12:ToAddBatchTasks nSize = 0
+23:34:12:AddBatchTasks batch task is done. nSize is zero
+23:34:13:DownloadFile taskid = 20, nThreadId = 1, nIndex = 0, url = https://wenku.baidu.com/view/b1fe3c03cebff121dd36a32d7375a417866fc1d1.html
+23:34:13:DownloadFileCallBackWithCurl url= https://wenku.baidu.com/view/b1fe3c03cebff121dd36a32d7375a417866fc1d1.html, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b1fe3c03cebff121dd36a32d7375a417866fc1d1.html, nUncompress = 0
+23:34:14:download finish, uTaskId = 20, status = 200, downloaded = 32895, content-length = -1
+23:34:14:status = 200, uTaskId = 20
+23:34:14:encoding is gzip. uTaskId = 20, sSavePath:D:\冰点文库\kdocin\b1fe3c03cebff121dd36a32d7375a417866fc1d1.html
+23:34:14:change unknown readerType to html. readerType:xreader, sUrl=https://wenku.baidu.com/view/b1fe3c03cebff121dd36a32d7375a417866fc1d1.html.
+23:34:14:DownloadFile taskid = 20, nThreadId = 2, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=0-39343&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.erUWE2o9AdCFhUq30gnL4vs340O8ne4XpCIVLtLa188%3D.1644856455
+23:34:14:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=0-39343&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.erUWE2o9AdCFhUq30gnL4vs340O8ne4XpCIVLtLa188%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\bAA87334A3779BA8981BB14CE4F76A913_json, nUncompress = 0
+23:34:14:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:14:AddExportPDFTask. i:0, status:102,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:14:in AddExportPDFTask. i equal size. i = 1.
+23:34:14:download finish, uTaskId = 20, status = 206, downloaded = 39344, content-length = 39344
+23:34:14:status = 206, uTaskId = 20
+23:34:14:OnMessageEvent task is not existed. message: 20, 13, 20, 0
+23:34:14:UpdateTaskStatus. status:-1, url:https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=0-39343&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.erUWE2o9AdCFhUq30gnL4vs340O8ne4XpCIVLtLa188%3D.1644856455, m_sSavePath:D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_1.dat
+23:34:14:DownloadFile taskid = 20, nThreadId = 3, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=0-39343&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.erUWE2o9AdCFhUq30gnL4vs340O8ne4XpCIVLtLa188%3D.1644856455
+23:34:14:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=0-39343&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.erUWE2o9AdCFhUq30gnL4vs340O8ne4XpCIVLtLa188%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_1.dat, nUncompress = 0
+23:34:15:download finish, uTaskId = 20, status = 206, downloaded = 39344, content-length = 39344
+23:34:15:status = 206, uTaskId = 20
+23:34:15:DownloadFile taskid = 20, nThreadId = 4, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=39344-88053&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.9apIpwLSeJgLiyfs1Tdzfk9hBbjYoUiRBQnIac4%2F9QM%3D.1644856455
+23:34:15:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=39344-88053&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.9apIpwLSeJgLiyfs1Tdzfk9hBbjYoUiRBQnIac4%2F9QM%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_2.dat, nUncompress = 0
+23:34:15:download finish, uTaskId = 20, status = 206, downloaded = 48710, content-length = 48710
+23:34:15:status = 206, uTaskId = 20
+23:34:15:DownloadFile taskid = 20, nThreadId = 5, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=88054-127110&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.zSazSlhVEYmArYVVKEeJOXHhdfTmcRa4Z22B%2FDQa%2Bsw%3D.1644856455
+23:34:15:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=88054-127110&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.zSazSlhVEYmArYVVKEeJOXHhdfTmcRa4Z22B%2FDQa%2Bsw%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_3.dat, nUncompress = 0
+23:34:15:download finish, uTaskId = 20, status = 206, downloaded = 39057, content-length = 39057
+23:34:15:status = 206, uTaskId = 20
+23:34:15:DownloadFile taskid = 20, nThreadId = 6, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=127111-164345&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.w4nkEJVTpXn%2BhRWBd3LNWe2QP8jrQfV9kukG0vVE8Po%3D.1644856455
+23:34:15:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=127111-164345&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.w4nkEJVTpXn%2BhRWBd3LNWe2QP8jrQfV9kukG0vVE8Po%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_4.dat, nUncompress = 0
+23:34:17:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:17:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:17:in AddExportPDFTask. i equal size. i = 1.
+23:34:20:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:20:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:20:in AddExportPDFTask. i equal size. i = 1.
+23:34:23:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:23:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:23:in AddExportPDFTask. i equal size. i = 1.
+23:34:25:download failed, uTaskId = 20, err=28, cause=Timeout was reached
+23:34:25:DownloadFailed uTaskId:20, uCauseCode:5, status:107, retry:0, url:https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=127111-164345&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.w4nkEJVTpXn%2BhRWBd3LNWe2QP8jrQfV9kukG0vVE8Po%3D.1644856455
+23:34:25:DownloadFailed. xx url is set from https to http. sUrl:https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=127111-164345&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.w4nkEJVTpXn%2BhRWBd3LNWe2QP8jrQfV9kukG0vVE8Po%3D.1644856455, downloadurl:http://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=127111-164345&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.w4nkEJVTpXn%2BhRWBd3LNWe2QP8jrQfV9kukG0vVE8Po%3D.1644856455.
+23:34:25:DownloadFile taskid = 20, nThreadId = 7, nIndex = 0, url = http://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=127111-164345&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.w4nkEJVTpXn%2BhRWBd3LNWe2QP8jrQfV9kukG0vVE8Po%3D.1644856455
+23:34:25:DownloadFileCallBackWithCurl url= http://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=127111-164345&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.w4nkEJVTpXn%2BhRWBd3LNWe2QP8jrQfV9kukG0vVE8Po%3D.1644856455, uerproxy = 0, method = 1, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_4.dat, nUncompress = 0
+23:34:25:download finish, uTaskId = 20, status = 206, downloaded = 37235, content-length = 37235
+23:34:25:status = 206, uTaskId = 20
+23:34:25:DownloadFile taskid = 20, nThreadId = 8, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=164346-202546&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.3kByzr1i1dG%2FR04GFRY%2FZ9DV6KYdpCfaot6H6oOLUdQ%3D.1644856455
+23:34:25:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=164346-202546&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.3kByzr1i1dG%2FR04GFRY%2FZ9DV6KYdpCfaot6H6oOLUdQ%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_5.dat, nUncompress = 0
+23:34:25:download finish, uTaskId = 20, status = 206, downloaded = 38201, content-length = 38201
+23:34:25:status = 206, uTaskId = 20
+23:34:25:DownloadFile taskid = 20, nThreadId = 9, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=202547-237531&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.JCyUjS4yIYva%2BXObkfo1vjVpL5WGPLnbSLBo0C0bVPg%3D.1644856455
+23:34:25:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=202547-237531&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.JCyUjS4yIYva%2BXObkfo1vjVpL5WGPLnbSLBo0C0bVPg%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_6.dat, nUncompress = 0
+23:34:25:download finish, uTaskId = 20, status = 206, downloaded = 34985, content-length = 34985
+23:34:25:status = 206, uTaskId = 20
+23:34:25:DownloadFile taskid = 20, nThreadId = 10, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=237532-277915&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.2I9NPpZp95fq9HhPqpklB9RJX%2B4NlF0wpFxg9bk2I%2B0%3D.1644856455
+23:34:25:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=237532-277915&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.2I9NPpZp95fq9HhPqpklB9RJX%2B4NlF0wpFxg9bk2I%2B0%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_7.dat, nUncompress = 0
+23:34:26:download finish, uTaskId = 20, status = 206, downloaded = 40384, content-length = 40384
+23:34:26:status = 206, uTaskId = 20
+23:34:26:DownloadFile taskid = 20, nThreadId = 11, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=277916-319924&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.GLLb85tTPhvYYWLf%2B58B17JIyhDe75nm1JvhA%2BSKNZw%3D.1644856455
+23:34:26:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=277916-319924&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.GLLb85tTPhvYYWLf%2B58B17JIyhDe75nm1JvhA%2BSKNZw%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_8.dat, nUncompress = 0
+23:34:26:download finish, uTaskId = 20, status = 206, downloaded = 42009, content-length = 42009
+23:34:26:status = 206, uTaskId = 20
+23:34:26:DownloadFile taskid = 20, nThreadId = 12, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094/wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseContentType=application%2Fjavascript&responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F109db7582681ae73da61a4c35b589f99a9769b8f813df618eebf31f98ff057ee&x-bce-range=319925-355720&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDb250ZW50VHlwZSIsInJlc3BvbnNlQ2FjaGVDb250cm9sIiwicmVzcG9uc2VFeHBpcmVzIiwieC1iY2UtcmFuZ2UiXX0%3D.dqUmo%2Bo5dcY7kIh1RZfoNjjARrHYNnHoSxGDx8CmV5Y%3D.1644856455
+23:34:26:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094/wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseContentType=application%2Fjavascript&responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F109db7582681ae73da61a4c35b589f99a9769b8f813df618eebf31f98ff057ee&x-bce-range=319925-355720&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDb250ZW50VHlwZSIsInJlc3BvbnNlQ2FjaGVDb250cm9sIiwicmVzcG9uc2VFeHBpcmVzIiwieC1iY2UtcmFuZ2UiXX0%3D.dqUmo%2Bo5dcY7kIh1RZfoNjjARrHYNnHoSxGDx8CmV5Y%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_9.dat, nUncompress = 0
+23:34:26:download finish, uTaskId = 20, status = 206, downloaded = 35796, content-length = 35796
+23:34:26:status = 206, uTaskId = 20
+23:34:26:DownloadFile taskid = 20, nThreadId = 13, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=355721-387938&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.5Otw7kNI7BoeRd27vnjfsCRGUeadWWeaAp8ZuYx65pk%3D.1644856455
+23:34:26:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=355721-387938&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.5Otw7kNI7BoeRd27vnjfsCRGUeadWWeaAp8ZuYx65pk%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_10.dat, nUncompress = 0
+23:34:26:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:26:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:26:in AddExportPDFTask. i equal size. i = 1.
+23:34:26:download finish, uTaskId = 20, status = 206, downloaded = 32218, content-length = 32218
+23:34:26:status = 206, uTaskId = 20
+23:34:26:DownloadFile taskid = 20, nThreadId = 14, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=387939-421058&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.hZb7zq0hpUAWeFDn4TieG1lXeN9MHh2YOzDepA7%2FJKU%3D.1644856455
+23:34:26:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=387939-421058&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.hZb7zq0hpUAWeFDn4TieG1lXeN9MHh2YOzDepA7%2FJKU%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_11.dat, nUncompress = 0
+23:34:26:download finish, uTaskId = 20, status = 206, downloaded = 33120, content-length = 33120
+23:34:26:status = 206, uTaskId = 20
+23:34:26:DownloadFile taskid = 20, nThreadId = 15, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=421059-459336&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.M%2B1gKHgj6Yal7iehewFZxmmK6Eoqr%2FcicnM%2BLwZIZl0%3D.1644856455
+23:34:26:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=421059-459336&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.M%2B1gKHgj6Yal7iehewFZxmmK6Eoqr%2FcicnM%2BLwZIZl0%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_12.dat, nUncompress = 0
+23:34:26:download finish, uTaskId = 20, status = 206, downloaded = 38278, content-length = 38278
+23:34:26:status = 206, uTaskId = 20
+23:34:26:DownloadFile taskid = 20, nThreadId = 16, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=459337-492765&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.%2BJn4q1hYZUw0unPIEcxY76hIsVCdf9cbH0ojWrP5K2s%3D.1644856455
+23:34:26:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=459337-492765&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.%2BJn4q1hYZUw0unPIEcxY76hIsVCdf9cbH0ojWrP5K2s%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_13.dat, nUncompress = 0
+23:34:27:download finish, uTaskId = 20, status = 206, downloaded = 33429, content-length = 33429
+23:34:27:status = 206, uTaskId = 20
+23:34:27:DownloadFile taskid = 20, nThreadId = 17, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=492766-523114&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.ValCkk3DyDxiKiH8EWIcrOpTOkBqwWE9La3mnDEAxzg%3D.1644856455
+23:34:27:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=492766-523114&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.ValCkk3DyDxiKiH8EWIcrOpTOkBqwWE9La3mnDEAxzg%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_14.dat, nUncompress = 0
+23:34:27:download finish, uTaskId = 20, status = 206, downloaded = 30349, content-length = 30349
+23:34:27:status = 206, uTaskId = 20
+23:34:27:DownloadFile taskid = 20, nThreadId = 18, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=523115-564394&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.9rdP%2BoCNt0ftdnXrzbs2fdUr5WmF8RKoBah25WzMinE%3D.1644856455
+23:34:27:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=523115-564394&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.9rdP%2BoCNt0ftdnXrzbs2fdUr5WmF8RKoBah25WzMinE%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_15.dat, nUncompress = 0
+23:34:27:download finish, uTaskId = 20, status = 206, downloaded = 41280, content-length = 41280
+23:34:27:status = 206, uTaskId = 20
+23:34:27:DownloadFile taskid = 20, nThreadId = 19, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=564395-606163&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.YX4EOW2UiHbMw%2BzVeyZuM%2F%2B2XtvtMNMby%2BQj%2FiWZypM%3D.1644856455
+23:34:27:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=564395-606163&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.YX4EOW2UiHbMw%2BzVeyZuM%2F%2B2XtvtMNMby%2BQj%2FiWZypM%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_16.dat, nUncompress = 0
+23:34:27:download finish, uTaskId = 20, status = 206, downloaded = 41769, content-length = 41769
+23:34:27:status = 206, uTaskId = 20
+23:34:27:DownloadFile taskid = 20, nThreadId = 20, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=606164-647034&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.YGkm3hm8HaZUn9cGAuPgN6BseJ%2FpWwDINCILprjHOFw%3D.1644856455
+23:34:27:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=606164-647034&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.YGkm3hm8HaZUn9cGAuPgN6BseJ%2FpWwDINCILprjHOFw%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_17.dat, nUncompress = 0
+23:34:27:download finish, uTaskId = 20, status = 206, downloaded = 40871, content-length = 40871
+23:34:27:status = 206, uTaskId = 20
+23:34:27:DownloadFile taskid = 20, nThreadId = 21, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=647035-681556&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.%2F4W%2BKCKuR6%2BKGw4tmiNdtukWd6UXJ3jTGakr1u0OCQk%3D.1644856455
+23:34:27:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=647035-681556&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.%2F4W%2BKCKuR6%2BKGw4tmiNdtukWd6UXJ3jTGakr1u0OCQk%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_18.dat, nUncompress = 0
+23:34:27:download finish, uTaskId = 20, status = 206, downloaded = 34522, content-length = 34522
+23:34:27:status = 206, uTaskId = 20
+23:34:27:DownloadFile taskid = 20, nThreadId = 22, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=681557-717450&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.kpmcITcEna0Qy0JrjZgBb1qYQzi2z0oFkKJJ1Xmikno%3D.1644856455
+23:34:27:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=681557-717450&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.kpmcITcEna0Qy0JrjZgBb1qYQzi2z0oFkKJJ1Xmikno%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_19.dat, nUncompress = 0
+23:34:28:download finish, uTaskId = 20, status = 206, downloaded = 35894, content-length = 35894
+23:34:28:status = 206, uTaskId = 20
+23:34:28:DownloadFile taskid = 20, nThreadId = 23, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=717451-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.%2BHNtnmoytdrReugF4TZPvT0BPptg9Sh32V10KWjq0Qs%3D.1644856455
+23:34:28:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2Fa3acbd3cb513a75b0717c51baebc7bde7501c29f306237791b7aaa8131363797&x-bce-range=717451-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.%2BHNtnmoytdrReugF4TZPvT0BPptg9Sh32V10KWjq0Qs%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_20.dat, nUncompress = 0
+23:34:28:download finish, uTaskId = 20, status = 206, downloaded = 17702, content-length = 17702
+23:34:28:status = 206, uTaskId = 20
+23:34:28:DownloadFile taskid = 20, nThreadId = 24, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=0-2666&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.IW%2FAMdnABIIXci0H86JtyyJSz3hRLRTsbL1FyRVRhRE%3D.1644856455
+23:34:28:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=0-2666&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.IW%2FAMdnABIIXci0H86JtyyJSz3hRLRTsbL1FyRVRhRE%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_21.dat, nUncompress = 0
+23:34:28:download finish, uTaskId = 20, status = 206, downloaded = 2667, content-length = 2667
+23:34:28:status = 206, uTaskId = 20
+23:34:28:DownloadFile taskid = 20, nThreadId = 25, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=2667-4252&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.TyRNC0ugQ2r4xRT1TYqDbbn0%2FetGF5QuC%2FB93GFe4nE%3D.1644856455
+23:34:28:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=2667-4252&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.TyRNC0ugQ2r4xRT1TYqDbbn0%2FetGF5QuC%2FB93GFe4nE%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_22.dat, nUncompress = 0
+23:34:28:download finish, uTaskId = 20, status = 206, downloaded = 1586, content-length = 1586
+23:34:28:status = 206, uTaskId = 20
+23:34:28:DownloadFile taskid = 20, nThreadId = 26, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=4253-7169&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.HCN1TpVna1y4KxjtqTiRnSewbnC4Zzk%2BXzfS0sXRNUA%3D.1644856455
+23:34:28:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=4253-7169&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.HCN1TpVna1y4KxjtqTiRnSewbnC4Zzk%2BXzfS0sXRNUA%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_23.dat, nUncompress = 0
+23:34:28:download finish, uTaskId = 20, status = 206, downloaded = 2917, content-length = 2917
+23:34:28:status = 206, uTaskId = 20
+23:34:28:DownloadFile taskid = 20, nThreadId = 27, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=7170-8627&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.rV09MlsYjJ955LLdaOGI%2FzK5dblKcvLno6nNeCxmLxw%3D.1644856455
+23:34:28:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=7170-8627&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.rV09MlsYjJ955LLdaOGI%2FzK5dblKcvLno6nNeCxmLxw%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_24.dat, nUncompress = 0
+23:34:28:download finish, uTaskId = 20, status = 206, downloaded = 1458, content-length = 1458
+23:34:28:status = 206, uTaskId = 20
+23:34:28:DownloadFile taskid = 20, nThreadId = 28, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=8628-10102&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.rhkxN4E3Eq%2BrCwZjnetuO87PnvahzBq0Ds9f7l1mCLw%3D.1644856455
+23:34:28:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=8628-10102&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.rhkxN4E3Eq%2BrCwZjnetuO87PnvahzBq0Ds9f7l1mCLw%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_25.dat, nUncompress = 0
+23:34:29:download finish, uTaskId = 20, status = 206, downloaded = 1475, content-length = 1475
+23:34:29:status = 206, uTaskId = 20
+23:34:29:DownloadFile taskid = 20, nThreadId = 29, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=10103-11541&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RS12T%2B%2BzTx7C9Syf93oRTNVehmIxlqTw7IPHKj43IO8%3D.1644856455
+23:34:29:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=10103-11541&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RS12T%2B%2BzTx7C9Syf93oRTNVehmIxlqTw7IPHKj43IO8%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_26.dat, nUncompress = 0
+23:34:29:download finish, uTaskId = 20, status = 206, downloaded = 1439, content-length = 1439
+23:34:29:status = 206, uTaskId = 20
+23:34:29:DownloadFile taskid = 20, nThreadId = 30, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=11542-15126&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.40Ok%2FMhT58LK%2BUaBUGxSpgPhLLwCO454c6tp7u76VBQ%3D.1644856455
+23:34:29:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=11542-15126&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.40Ok%2FMhT58LK%2BUaBUGxSpgPhLLwCO454c6tp7u76VBQ%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_27.dat, nUncompress = 0
+23:34:29:download finish, uTaskId = 20, status = 206, downloaded = 3585, content-length = 3585
+23:34:29:status = 206, uTaskId = 20
+23:34:29:DownloadFile taskid = 20, nThreadId = 31, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=15127-18056&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.dPNQijqEqSSmZnQbnJUYBrWMLrNjMlloKdBrCvaaRP4%3D.1644856455
+23:34:29:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=15127-18056&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.dPNQijqEqSSmZnQbnJUYBrWMLrNjMlloKdBrCvaaRP4%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_28.dat, nUncompress = 0
+23:34:29:download finish, uTaskId = 20, status = 206, downloaded = 2930, content-length = 2930
+23:34:29:status = 206, uTaskId = 20
+23:34:29:DownloadFile taskid = 20, nThreadId = 32, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=18057-19512&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.Hwa1t4HvPENEbn%2B7LnE4Igfv4ki5QCS4ogbfQK4clXE%3D.1644856455
+23:34:29:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=18057-19512&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.Hwa1t4HvPENEbn%2B7LnE4Igfv4ki5QCS4ogbfQK4clXE%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_29.dat, nUncompress = 0
+23:34:29:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:29:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:29:in AddExportPDFTask. i equal size. i = 1.
+23:34:29:download finish, uTaskId = 20, status = 206, downloaded = 1456, content-length = 1456
+23:34:29:status = 206, uTaskId = 20
+23:34:29:DownloadFile taskid = 20, nThreadId = 33, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=19513-20952&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.1ToCO13n1FGcEJ5bT296oXkX2%2Fj7fcJAgGRRbXaZSvM%3D.1644856455
+23:34:29:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=19513-20952&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.1ToCO13n1FGcEJ5bT296oXkX2%2Fj7fcJAgGRRbXaZSvM%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_30.dat, nUncompress = 0
+23:34:29:download finish, uTaskId = 20, status = 206, downloaded = 1440, content-length = 1440
+23:34:29:status = 206, uTaskId = 20
+23:34:29:DownloadFile taskid = 20, nThreadId = 34, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=20953-22395&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.YjO7yOh2EBnXOt8%2FiIEQm5EGQSWYN1UlMRZj20Qc7u8%3D.1644856455
+23:34:29:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=20953-22395&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.YjO7yOh2EBnXOt8%2FiIEQm5EGQSWYN1UlMRZj20Qc7u8%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_31.dat, nUncompress = 0
+23:34:30:download finish, uTaskId = 20, status = 206, downloaded = 1443, content-length = 1443
+23:34:30:status = 206, uTaskId = 20
+23:34:30:DownloadFile taskid = 20, nThreadId = 35, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=22396-23847&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RzesIVjeCh%2FhoQp6qDahP3sVOUCxDSN6cf7J8v5CTHs%3D.1644856455
+23:34:30:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=22396-23847&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RzesIVjeCh%2FhoQp6qDahP3sVOUCxDSN6cf7J8v5CTHs%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_32.dat, nUncompress = 0
+23:34:32:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:32:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:32:in AddExportPDFTask. i equal size. i = 1.
+23:34:35:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:35:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:35:in AddExportPDFTask. i equal size. i = 1.
+23:34:38:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:38:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:38:in AddExportPDFTask. i equal size. i = 1.
+23:34:41:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:41:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:41:in AddExportPDFTask. i equal size. i = 1.
+23:34:44:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:44:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:44:in AddExportPDFTask. i equal size. i = 1.
+23:34:47:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:47:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:47:in AddExportPDFTask. i equal size. i = 1.
+23:34:49:download failed, uTaskId = 20, err=56, cause=Failure when receiving data from the peer
+23:34:49:DownloadFailed uTaskId:20, uCauseCode:5, status:107, retry:0, url:https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=22396-23847&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RzesIVjeCh%2FhoQp6qDahP3sVOUCxDSN6cf7J8v5CTHs%3D.1644856455
+23:34:49:DownloadFailed. xx url is set from https to http. sUrl:https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=22396-23847&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RzesIVjeCh%2FhoQp6qDahP3sVOUCxDSN6cf7J8v5CTHs%3D.1644856455, downloadurl:http://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=22396-23847&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RzesIVjeCh%2FhoQp6qDahP3sVOUCxDSN6cf7J8v5CTHs%3D.1644856455.
+23:34:49:DownloadFile taskid = 20, nThreadId = 36, nIndex = 0, url = http://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=22396-23847&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RzesIVjeCh%2FhoQp6qDahP3sVOUCxDSN6cf7J8v5CTHs%3D.1644856455
+23:34:49:DownloadFileCallBackWithCurl url= http://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=22396-23847&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.RzesIVjeCh%2FhoQp6qDahP3sVOUCxDSN6cf7J8v5CTHs%3D.1644856455, uerproxy = 0, method = 1, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_32.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1452, content-length = 1452
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 37, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=23848-25324&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.5HaMiPSs8Tw%2FxoNrpsuqirc2OOEuSMBYJvGH1wiDXVQ%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=23848-25324&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.5HaMiPSs8Tw%2FxoNrpsuqirc2OOEuSMBYJvGH1wiDXVQ%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_33.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1477, content-length = 1477
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 38, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=25325-26765&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.Refdbb2fV%2FUewNVbSjC4YIivC%2Bbjo8dGQY7TVR1qH4E%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=25325-26765&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.Refdbb2fV%2FUewNVbSjC4YIivC%2Bbjo8dGQY7TVR1qH4E%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_34.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1441, content-length = 1441
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 39, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=26766-28236&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.E0fcsbRU%2FgwW4Jas7hFpfrJKQu%2FegkDuqEs9mYVhWBc%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=26766-28236&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.E0fcsbRU%2FgwW4Jas7hFpfrJKQu%2FegkDuqEs9mYVhWBc%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_35.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1471, content-length = 1471
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 40, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=28237-29712&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.hKcaf1ZoWI%2B4tPFQc2FFI9O8o5eje2b9D%2Fvqu09dxWM%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=28237-29712&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.hKcaf1ZoWI%2B4tPFQc2FFI9O8o5eje2b9D%2Fvqu09dxWM%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_36.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1476, content-length = 1476
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 41, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=29713-31188&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.lphf5jR0qPfofoZ%2FkEyU5lQi9FK4QtEONrTrD43w%2BCg%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=29713-31188&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.lphf5jR0qPfofoZ%2FkEyU5lQi9FK4QtEONrTrD43w%2BCg%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_37.dat, nUncompress = 0
+23:34:50:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:50:AddExportPDFTask. i:0, status:107,downloadstatus:2,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:50:in AddExportPDFTask. i equal size. i = 1.
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1476, content-length = 1476
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 42, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=31189-32658&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.7sYVWNYy0XAidwuohzo6lJxRFUB8MvGCQRHguvCuTfE%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=31189-32658&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.7sYVWNYy0XAidwuohzo6lJxRFUB8MvGCQRHguvCuTfE%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_38.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1470, content-length = 1470
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 43, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=32659-34124&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.tJ0%2F5E1EZPC147b5wtOEqVJpezAuFcwr6sPW%2BI4dDMw%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=32659-34124&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.tJ0%2F5E1EZPC147b5wtOEqVJpezAuFcwr6sPW%2BI4dDMw%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_39.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1466, content-length = 1466
+23:34:50:status = 206, uTaskId = 20
+23:34:50:DownloadFile taskid = 20, nThreadId = 44, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=34125-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.IyW7%2BJ%2FJ2orNGJxU1%2Ftf0T24IJRk10intlR8jy5qlK0%3D.1644856455
+23:34:50:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=34125-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.IyW7%2BJ%2FJ2orNGJxU1%2Ftf0T24IJRk10intlR8jy5qlK0%3D.1644856455, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_40.dat, nUncompress = 0
+23:34:50:download finish, uTaskId = 20, status = 206, downloaded = 1394, content-length = 1394
+23:34:50:status = 206, uTaskId = 20
+23:34:50:UpdateTaskStatus. status:-5, url:https://wkbjcloudbos.bdimg.com/v1/docconvert1094//wk/52250310b2310f3bcaca34ad17ca502e/0.png?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A34%3A15%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A34%3A15Z%2F3600%2Fhost%2F0cb7fcda39ed912b057146ab6a795ed2532a8306af7c5769b1bc27ee9dd9e14b&x-bce-range=34125-&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1NjQ1NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.IyW7%2BJ%2FJ2orNGJxU1%2Ftf0T24IJRk10intlR8jy5qlK0%3D.1644856455, m_sSavePath:D:\冰点文库\kdocin\b_b1fe3c03cebff121dd36a32d7375a417866fc1d1_40.dat
+23:34:50:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:34:50:AddExportPDFTask. i:0, status:-5,downloadstatus:1,ListItem:0,2019年电大计算机应用基础网考试题与答案
+23:34:50:ExportPdfFile html, taskid = 20, nThreadId = 45, nIndex = 0, m_sPdfFileName = D:\冰点文库\kpdf\2019年电大计算机应用基础网考试题与答案.pdf
+23:34:50:ExportPDFFromHTMLCallBack uTaskId = 20, uId = 45, uMsgId = 2949140, res = 0, m_sReaderType=html, m_sPdfFileName=D:\冰点文库\kpdf\2019年电大计算机应用基础网考试题与答案.pdf
+23:34:52:begin to export
+23:34:54:MixPuaImages. fontName is not symbol. i:258
+23:34:54:MixPuaImages. fontName is not symbol. i:262
+23:34:54:MixPuaImages. fontName is not symbol. i:266
+23:34:54:MixPuaImages. fontName is not symbol. i:270
+23:34:57:end to export
+23:34:59:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:02:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:05:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:08:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:11:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:14:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:17:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:20:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:23:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:26:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:29:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:32:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:35:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:38:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:41:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:44:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:47:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:50:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:53:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:56:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:35:59:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:02:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:05:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:08:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:11:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:14:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:17:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:20:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:23:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:26:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:28:OnRClickListMenu nID:38302
+23:36:28:KillTaskThread thread is killed. uTaskId = 2, taskstatus = 107, url = https://wenku.baidu.com/view/35dc4a4a03d276a20029bd64783e0912a3167ceb.html?fr=aladdin664466&ind=1.
+23:36:28:OnMessageEvent task is not existed. message: 2, 35, 2, 0
+23:36:29:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:29:OnRClickListMenu nID:38303
+23:36:29:KillTaskThread thread is killed. uTaskId = 1, taskstatus = 108, url = https://wenku.baidu.com/view/26ac717f9989680203d8ce2f0066f5335a81679c.html.
+23:36:29:KillTaskThread thread is killed. uTaskId = 3, taskstatus = 107, url = https://wenku.baidu.com/view/e3197412ccbff121dd3683f3.html.
+23:36:29:KillTaskThread thread is killed. uTaskId = 20, taskstatus = -3, url = https://wenku.baidu.com/view/b1fe3c03cebff121dd36a32d7375a417866fc1d1.html.
+23:36:29:OnMessageEvent task is not existed. message: 1, 35, 1, 0
+23:36:29:OnMessageEvent task is not existed. message: 3, 35, 3, 0
+23:36:29:OnMessageEvent task is not existed. message: 20, 35, 20, 0
+23:36:32:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:34:OnRClickListMenu nID:38403
+23:36:34:KillTaskThread thread is killed. uTaskId = 1, taskstatus = 108, url = https://wenku.baidu.com/view/26ac717f9989680203d8ce2f0066f5335a81679c.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 2, taskstatus = 107, url = https://wenku.baidu.com/view/35dc4a4a03d276a20029bd64783e0912a3167ceb.html?fr=aladdin664466&ind=1.
+23:36:34:KillTaskThread thread is killed. uTaskId = 3, taskstatus = 107, url = https://wenku.baidu.com/view/e3197412ccbff121dd3683f3.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 4, taskstatus = 107, url = https://wenku.baidu.com/view/75e706c09cc3d5bbfd0a79563c1ec5da50e2d6b8.html?fr=search.
+23:36:34:KillTaskThread thread is killed. uTaskId = 5, taskstatus = 107, url = https://wenku.baidu.com/view/fa24be51a22d7375a417866fb84ae45c3b35c23d.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 6, taskstatus = 107, url = https://wenku.baidu.com/view/68b2a1cf302b3169a45177232f60ddccda38e6a4.html?fr=search.
+23:36:34:KillTaskThread thread is killed. uTaskId = 7, taskstatus = 107, url = https://wenku.baidu.com/view/15e9818e3086bceb19e8b8f67c1cfad6195fe9d5.html?fr=search.
+23:36:34:KillTaskThread thread is killed. uTaskId = 8, taskstatus = 107, url = https://wenku.baidu.com/view/1228793fdc80d4d8d15abe23482fb4daa58d1de7.html?fr=search.
+23:36:34:KillTaskThread thread is killed. uTaskId = 9, taskstatus = 107, url = https://wenku.baidu.com/view/11d3f67aba1aa8114431d978.html?fr=search.
+23:36:34:KillTaskThread thread is killed. uTaskId = 10, taskstatus = 107, url = https://wenku.baidu.com/view/df1f8701581b6bd97f19eafb.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 11, taskstatus = 107, url = https://wenku.baidu.com/view/84ea06f4970590c69ec3d5bbfd0a79563d1ed440.html?fr=search.
+23:36:34:KillTaskThread thread is killed. uTaskId = 12, taskstatus = 107, url = https://www.baidu.com/link?url=DOSmZTYvcuzA7QlYLpdNwLB-3REp1IkwA96exDgV2ko0kl9dmAXlEJBpuVDSdqek15dvJ747-ZurrQd4fW1VjW9vcM3JMOM7xjKjS_x0IQq&wd=&eqid=a4b3ce07000300b7000000025eea239d.
+23:36:34:KillTaskThread thread is killed. uTaskId = 13, taskstatus = 107, url = https://www.baidu.com/link?url=NL4NJVXdgZV1QkSRXXXED05wmjS2OGgr3s7Am0L_-fk4rwip2GzW6-cnY29ZDqw6FqPBn1nmz9tGwmJHSs28wcr4tBP2cBXwoQTlDemWdGWz1HIjxYnews6Te1rKs3PD&wd=&eqid=932ee911000085ce000000025eeb5b29.
+23:36:34:KillTaskThread thread is killed. uTaskId = 14, taskstatus = 107, url = https://www.baidu.com/link?url=omi5DRIHAnV4XuvNANbnnuyaPzCe_zDlzaXi_bIEDPy9-Vk93BXAZnIfdNZXP-9eoZKl5Se9O4oThgWkaC_XC_xfxy7OGRChT1LXPS2WOuO&wd=&eqid=e0721c11001cf4b8000000035f01e853.
+23:36:34:KillTaskThread thread is killed. uTaskId = 15, taskstatus = -1, url = https://wenku.baidu.com/view/6b3904580029bd64793e2ce0.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 16, taskstatus = 107, url = https://wenku.baidu.com/view/14ccec833d1ec5da50e2524de518964bce84d2cd.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 17, taskstatus = 107, url = https://wenku.baidu.com/view/237d7f47492fb4daa58da0116c175f0e7cd119dd.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 18, taskstatus = 107, url = https://wenku.baidu.com/view/ea54768053ea551810a6f524ccbff121dd36c589.html.
+23:36:34:KillTaskThread thread is killed. uTaskId = 19, taskstatus = 107, url = https://wenku.baidu.com/view/6b62b683bc64783e0912a21614791711cd79793b.
+23:36:34:KillTaskThread thread is killed. uTaskId = 20, taskstatus = -3, url = https://wenku.baidu.com/view/b1fe3c03cebff121dd36a32d7375a417866fc1d1.html.
+23:36:34:OnMessageEvent task is not existed. message: 1, 35, 1, 0
+23:36:34:OnMessageEvent task is not existed. message: 2, 35, 2, 0
+23:36:34:OnMessageEvent task is not existed. message: 3, 35, 3, 0
+23:36:34:OnMessageEvent task is not existed. message: 4, 35, 4, 0
+23:36:34:OnMessageEvent task is not existed. message: 5, 35, 5, 0
+23:36:34:OnMessageEvent task is not existed. message: 6, 35, 6, 0
+23:36:34:OnMessageEvent task is not existed. message: 7, 35, 7, 0
+23:36:34:OnMessageEvent task is not existed. message: 8, 35, 8, 0
+23:36:34:OnMessageEvent task is not existed. message: 9, 35, 9, 0
+23:36:34:OnMessageEvent task is not existed. message: 10, 35, 10, 0
+23:36:34:OnMessageEvent task is not existed. message: 11, 35, 11, 0
+23:36:34:OnMessageEvent task is not existed. message: 12, 35, 12, 0
+23:36:34:OnMessageEvent task is not existed. message: 13, 35, 13, 0
+23:36:34:OnMessageEvent task is not existed. message: 14, 35, 14, 0
+23:36:34:OnMessageEvent task is not existed. message: 15, 35, 15, 0
+23:36:34:OnMessageEvent task is not existed. message: 16, 35, 16, 0
+23:36:34:OnMessageEvent task is not existed. message: 17, 35, 17, 0
+23:36:34:OnMessageEvent task is not existed. message: 18, 35, 18, 0
+23:36:34:OnMessageEvent task is not existed. message: 19, 35, 19, 0
+23:36:34:OnMessageEvent task is not existed. message: 20, 35, 20, 0
+23:36:35:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:38:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:41:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:44:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:47:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:50:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:53:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:56:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:36:59:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:02:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:05:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:08:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:11:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:14:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:17:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:20:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:23:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:26:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:29:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:32:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:35:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:38:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:37:41:end
+
+2022-02-14 23:39:24:D:\冰点文库\Fish.exe-3.2.12-0314
+23:39:24:start with admin privilege : 0
+23:39:24:LoadUrlFile can't open url file. cUrlFile:D:\冰点文库\kini\tkbatch.ini
+23:39:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:39:28:ToAddBatchTasks nSize = 0
+23:39:28:AddBatchTasks batch task is done. nSize is zero
+23:39:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:39:33:DownloadFile taskid = 1, nThreadId = 1, nIndex = 0, url = https://wenku.baidu.com/view/382bbcac41323968011ca300a6c30c225801f02b.html
+23:39:33:DownloadFileCallBackWithCurl url= https://wenku.baidu.com/view/382bbcac41323968011ca300a6c30c225801f02b.html, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\382bbcac41323968011ca300a6c30c225801f02b.html, nUncompress = 0
+23:39:33:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:39:33:AddExportPDFTask. i:0, status:101,downloadstatus:2,ListItem:0,https://wenku.baidu.com/view/382bbcac41323968011ca300a6c30c225801f02b.html
+23:39:33:in AddExportPDFTask. i equal size. i = 1.
+23:39:34:download finish, uTaskId = 1, status = 200, downloaded = 26377, content-length = -1
+23:39:34:status = 200, uTaskId = 1
+23:39:34:encoding is gzip. uTaskId = 1, sSavePath:D:\冰点文库\kdocin\382bbcac41323968011ca300a6c30c225801f02b.html
+23:39:34:change unknown readerType to html. readerType:xreader, sUrl=https://wenku.baidu.com/view/382bbcac41323968011ca300a6c30c225801f02b.html.
+23:39:34:DownloadFile taskid = 1, nThreadId = 2, nIndex = 0, url = https://wkbjcloudbos.bdimg.com/v1/docconvert6566//wk/ad52f92f3fede47db356f597d6493fd3/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A39%3A35%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A39%3A35Z%2F3600%2Fhost%2F083dbdefef9bdff0baa64ebb956ad0ebf67c845a6fb7df1ef5d374006f53139a&x-bce-range=0-9145&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1Njc3NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.aAUG%2FK3qB%2F%2FJbDu%2Fn%2BjpC9xCaGumM3XmDuqgdC2GrnM%3D.1644856775
+23:39:34:DownloadFileCallBackWithCurl url= https://wkbjcloudbos.bdimg.com/v1/docconvert6566//wk/ad52f92f3fede47db356f597d6493fd3/0.json?responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2031%20Mar%202022%2023%3A39%3A35%20%2B0800&authorization=bce-auth-v1%2Ffa1126e91489401fa7cc85045ce7179e%2F2022-02-14T15%3A39%3A35Z%2F3600%2Fhost%2F083dbdefef9bdff0baa64ebb956ad0ebf67c845a6fb7df1ef5d374006f53139a&x-bce-range=0-9145&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY0NDg1Njc3NSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDYWNoZUNvbnRyb2wiLCJyZXNwb25zZUV4cGlyZXMiLCJ4LWJjZS1yYW5nZSJdfQ%3D%3D.aAUG%2FK3qB%2F%2FJbDu%2Fn%2BjpC9xCaGumM3XmDuqgdC2GrnM%3D.1644856775, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b33794C11696BD2E00DCA7239C80E37BF_json, nUncompress = 0
+23:39:34:download finish, uTaskId = 1, status = 206, downloaded = 9146, content-length = 9146
+23:39:34:status = 206, uTaskId = 1
+23:39:34:DownloadFile taskid = 1, nThreadId = 3, nIndex = 0, url = https://wenku.baidu.com/browse/getrequest?doc_id=382bbcac41323968011ca300a6c30c225801f02b&pn=1&rn=50&type=ppt
+23:39:34:DownloadFileCallBackWithCurl url= https://wenku.baidu.com/browse/getrequest?doc_id=382bbcac41323968011ca300a6c30c225801f02b&pn=1&rn=50&type=ppt, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b33794C11696BD2E00DCA7239C80E37BF_ppt_1.lst, nUncompress = 0
+23:39:34:download finish, uTaskId = 1, status = 200, downloaded = 22, content-length = 22
+23:39:34:status = 200, uTaskId = 1
+23:39:34:encoding is gzip. uTaskId = 1, sSavePath:D:\冰点文库\kdocin\b33794C11696BD2E00DCA7239C80E37BF_ppt_1.lst
+23:39:34:UpdateTaskStatus. status:-1, url:, m_sSavePath:D:\冰点文库\kdocin\b_382bbcac41323968011ca300a6c30c225801f02b_1.dat
+23:39:34:ToDownloadFile. url is null. m_sDownloadUrl:, m_sUrl:https://wenku.baidu.com/view/382bbcac41323968011ca300a6c30c225801f02b.html, m_sSavePath:D:\冰点文库\kdocin\b_382bbcac41323968011ca300a6c30c225801f02b_0.dat
+23:39:36:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:39:36:AddExportPDFTask. i:0, status:-9,downloadstatus:1,ListItem:0,纪录片《为了和平》观后感抒情作文1000字范文三
+23:39:36:in AddExportPDFTask. i equal size. i = 1.
+23:39:39:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:39:39:AddExportPDFTask. i:0, status:-9,downloadstatus:1,ListItem:0,纪录片《为了和平》观后感抒情作文1000字范文三
+23:39:39:in AddExportPDFTask. i equal size. i = 1.
+23:39:40:OnRClickListMenu nID:38200
+23:39:40:KillTaskThread thread is killed. uTaskId = 1, taskstatus = -9, url = https://wenku.baidu.com/view/382bbcac41323968011ca300a6c30c225801f02b.html.
+23:39:40:OnMessageEvent task is not existed. message: 1, 35, 1, 0
+23:39:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:39:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:39:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:39:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:39:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:39:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:43:DownloadFile taskid = 2, nThreadId = 4, nIndex = 0, url = https://wenku.baidu.com/view/3c7a25ca793e0912a21614791711cc7930b77850.html
+23:40:43:DownloadFileCallBackWithCurl url= https://wenku.baidu.com/view/3c7a25ca793e0912a21614791711cc7930b77850.html, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\3c7a25ca793e0912a21614791711cc7930b77850.html, nUncompress = 0
+23:40:44:download finish, uTaskId = 2, status = 200, downloaded = 20344, content-length = -1
+23:40:44:status = 200, uTaskId = 2
+23:40:44:encoding is gzip. uTaskId = 2, sSavePath:D:\冰点文库\kdocin\3c7a25ca793e0912a21614791711cc7930b77850.html
+23:40:44:ProcessFileBaiduDoc error. pHtmlUrls is null. m_sSavePath = D:\冰点文库\kdocin\3c7a25ca793e0912a21614791711cc7930b77850.html
+23:40:44:DownloadFile taskid = 2, nThreadId = 5, nIndex = 0, url = https://wenku.baidu.com/browse/getbcsurl?doc_id=3c7a25ca793e0912a21614791711cc7930b77850&pn=1&rn=99999&type=ppt&callback=jQuery1101084498468&_=146384783147
+23:40:44:DownloadFileCallBackWithCurl url= https://wenku.baidu.com/browse/getbcsurl?doc_id=3c7a25ca793e0912a21614791711cc7930b77850&pn=1&rn=99999&type=ppt&callback=jQuery1101084498468&_=146384783147, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b671D101938E1079E6FD48174771EC7B1_ppt_1.lst.3a, nUncompress = 0
+23:40:44:download finish, uTaskId = 2, status = 200, downloaded = 22, content-length = 22
+23:40:44:status = 200, uTaskId = 2
+23:40:44:encoding is gzip. uTaskId = 2, sSavePath:D:\冰点文库\kdocin\b671D101938E1079E6FD48174771EC7B1_ppt_1.lst.3a
+23:40:44:DownloadFile taskid = 2, nThreadId = 6, nIndex = 0, url = https://wenku.baidu.com/browse/getrequest?doc_id=3c7a25ca793e0912a21614791711cc7930b77850&pn=1&rn=99999&type=ppt&callback=jQuery1101084498468
+23:40:44:DownloadFileCallBackWithCurl url= https://wenku.baidu.com/browse/getrequest?doc_id=3c7a25ca793e0912a21614791711cc7930b77850&pn=1&rn=99999&type=ppt&callback=jQuery1101084498468, uerproxy = 0, method = 3, save = D:\冰点文库\kdocin\b671D101938E1079E6FD48174771EC7B1_ppt_1.lst, nUncompress = 0
+23:40:44:download finish, uTaskId = 2, status = 200, downloaded = 22, content-length = 22
+23:40:44:status = 200, uTaskId = 2
+23:40:44:encoding is gzip. uTaskId = 2, sSavePath:D:\冰点文库\kdocin\b671D101938E1079E6FD48174771EC7B1_ppt_1.lst
+23:40:44:use baidu3A resource file . nLen3A:2
+23:40:44:UpdateTaskStatus. status:-1, url:, m_sSavePath:D:\冰点文库\kdocin\b_3c7a25ca793e0912a21614791711cc7930b77850_1.dat
+23:40:44:ToDownloadFile. url is null. m_sDownloadUrl:, m_sUrl:https://wenku.baidu.com/view/3c7a25ca793e0912a21614791711cc7930b77850.html, m_sSavePath:D:\冰点文库\kdocin\b_3c7a25ca793e0912a21614791711cc7930b77850_0.dat
+23:40:45:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:40:45:AddExportPDFTask. i:0, status:-9,downloadstatus:1,ListItem:0,初一上语文课件(人教版)-期末专题复习专题一拼音与汉字
+23:40:45:in AddExportPDFTask. i equal size. i = 1.
+23:40:48:AddExportPDFTask. size = 1, m_nExportTask = 0.
+23:40:48:AddExportPDFTask. i:0, status:-9,downloadstatus:1,ListItem:0,初一上语文课件(人教版)-期末专题复习专题一拼音与汉字
+23:40:48:in AddExportPDFTask. i equal size. i = 1.
+23:40:50:OnRClickListMenu nID:38200
+23:40:50:KillTaskThread thread is killed. uTaskId = 2, taskstatus = -9, url = https://wenku.baidu.com/view/3c7a25ca793e0912a21614791711cc7930b77850.html.
+23:40:50:OnMessageEvent task is not existed. message: 2, 35, 2, 0
+23:40:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:40:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:41:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:42:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:43:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:44:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:45:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:06:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:09:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:12:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:15:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:18:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:21:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:24:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:27:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:30:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:33:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:36:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:39:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:42:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:45:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:48:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:51:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:54:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:46:57:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:47:00:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:47:03:AddExportPDFTask. size = 0, m_nExportTask = 0.
+23:47:03:end
